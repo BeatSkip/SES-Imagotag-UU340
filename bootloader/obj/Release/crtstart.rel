@@ -1,0 +1,56 @@
+XH3
+H 1A areas 6 global symbols
+S _bootloader Ref000000
+S __sdcc_external_startup Ref000000
+S .__.ABS. Def000000
+A _CODE size 0 flags 0 addr 0
+A HOME size 0 flags 20 addr 0
+A GSINIT0 size 4 flags 20 addr 0
+S __sdcc_gsinit_startup Def000001
+A GSINIT1 size 0 flags 20 addr 0
+A GSINIT2 size A flags 20 addr 0
+A GSINIT3 size 0 flags 20 addr 0
+A GSINIT4 size 0 flags 20 addr 0
+A GSINIT5 size 0 flags 20 addr 0
+A GSINIT size 0 flags 20 addr 0
+A GSFINAL size 3 flags 20 addr 0
+A CSEG size 0 flags 20 addr 0
+A CONST size 0 flags 20 addr 0
+A UART0S0 size 0 flags 20 addr 0
+A UART0S1 size 0 flags 20 addr 0
+A UART0S2 size 0 flags 20 addr 0
+A UART0S3 size 0 flags 20 addr 0
+A UART0S4 size 0 flags 20 addr 0
+A UART0S5 size 0 flags 20 addr 0
+A WTCANSLP0 size 0 flags 20 addr 0
+A WTCANSLP1 size 0 flags 20 addr 0
+A WTCANSLP2 size 0 flags 20 addr 0
+A WTSTDBY0 size 0 flags 20 addr 0
+A WTSTDBY1 size 0 flags 20 addr 0
+A WTSTDBY2 size 0 flags 20 addr 0
+A VECTOR size 3 flags 20 addr 0
+S __interrupt_vect Def000000
+A SSEG size 1 flags 0 addr 0
+S __start__stack Def000000
+T 00 00 00
+R 00 00 00 18
+T 00 00 00 02 00 01
+R 00 00 00 18 00 04 00 02
+T 00 00 00 00
+R 00 00 00 02
+T 00 00 01
+R 00 00 00 02
+T 00 00 01 75 81 FF FF FF
+R 00 00 00 02 F1 01 05 00 19
+T 00 00 00 12 00 00 E5 82 60 03 02 00 00
+R 00 00 00 04 02 04 00 01 00 0B 00 09
+T 00 00 0A
+R 00 00 00 04
+T 00 00 00
+R 00 00 00 09
+T 00 00 00 02 00 00
+R 00 00 00 09 02 04 00 00
+T 00 00 00
+R 00 00 00 19
+T 00 00 00
+R 00 00 00 19

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1734473037 source:e:\elite performance squad\beatskip\design projects\misc - esl tags\axsem resources\ax8052_serialbootloader_v1.1\main.c
+	<ax8052.h>
+	<libmftypes.h>
+	<libmfuart.h>
+	<libmfuart0.h>
+	<libmfflash.h>
+	<libmfcrc.h>
+
+1734472121 source:e:\elite performance squad\beatskip\design projects\misc - esl tags\axsem resources\ax8052_serialbootloader_v1.1\crtstart.asm
+

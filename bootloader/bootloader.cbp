@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="bootloader" />
+		<Option pch_mode="2" />
+		<Option compiler="sdcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/bootloader.hex" prefix_auto="1" extension_auto="0" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="sdcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="--debug" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/bootloader.hex" prefix_auto="1" extension_auto="0" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="sdcc" />
+				<Option use_console_runner="0" />
+			</Target>
+			<Environment>
+				<Variable name="assembler" value="\usr\bin\sdcc-sdas8051" />
+			</Environment>
+		</Build>
+		<Compiler>
+			<Add option="-mmcs51" />
+			<Add option="--verbose" />
+			<Add option="--model-small" />
+		</Compiler>
+		<Linker>
+			<Add option="--xram-size 8192" />
+			<Add option="--iram-size 256" />
+			<Add option="--code-size 65536" />
+			<Add option="-Wl-bVECTOR=0x0000" />
+			<Add option="-Wl-bHOME=0xe400" />
+			<Add library="libmf" />
+		</Linker>
+		<Unit filename="crtstart.asm">
+			<Option compiler="sdcc" use="1" buildCommand="$assembler -plosgff $object $file" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debuggeraxs>
+				<advanced>
+					<options flash_erase="1" />
+				</advanced>
+			</debuggeraxs>
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

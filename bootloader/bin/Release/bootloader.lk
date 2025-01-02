@@ -1,0 +1,35 @@
+-muwx
+-i bin\Release\bootloader.hex
+-M
+-Y
+-I 0x0100
+-X 0x2000
+-C 0x10000
+-b HOME = 0x0000
+-b XSEG = 0x0001
+-b PSEG = 0x0001
+-b ISEG = 0x0000
+-b BSEG = 0x0000
+-bVECTOR=0x0000
+-bHOME=0xe400
+-k C:\Program Files\SDCC\lib
+-k C:\Program Files (x86)\ON Semiconductor\AXSDB\libreent\sdcc
+-k C:\Program Files (x86)\ON Semiconductor\AXSDB\libmf\sdcc
+-k C:\Program Files (x86)\ON Semiconductor\AXSDB\libmfcrypto\sdcc
+-k C:\Program Files (x86)\ON Semiconductor\AXSDB\libaxdvk2\sdcc
+-k C:\Program Files (x86)\ON Semiconductor\AXSDB\libax5031\sdcc
+-k C:\Program Files (x86)\ON Semiconductor\AXSDB\libax5042\sdcc
+-k C:\Program Files (x86)\ON Semiconductor\AXSDB\libax5043\sdcc
+-k C:\Program Files (x86)\ON Semiconductor\AXSDB\libax5051\sdcc
+-k C:\Program Files (x86)\ON Semiconductor\AXSDB\libaxdsp\sdcc
+-k C:\Program Files\SDCC\bin\..\lib\small
+-l libmf
+-l mcs51
+-l libsdcc
+-l libint
+-l liblong
+-l libfloat
+obj\Release\crtstart.rel
+obj\Release\main.rel
+
+-e
