@@ -22,8 +22,8 @@ I'll create a markdown table with all the pin connections organized according to
 
 | MCU Pin | Device/Bus | Signal name | Description |
 |---------|------------|-------------|-------------|
-| PA0 | SPI | CS | E-Ink chip select |
-| PA1 | E-Ink | D/C | Data/Command signal |
+| PA0 | E-Ink | D/C | Data/Command signal |
+| PA1 | SPI | CS | E-Ink chip select |
 | PA2 |  | - | Connected to Transistor U5 |
 | PA3 |  | P | Crystal Oscillator positive terminal |
 | PA4 |  | N | Crystal Oscillator negative terminal |
