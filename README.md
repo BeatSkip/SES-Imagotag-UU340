@@ -5,7 +5,7 @@ Reverse engineering and tooling for the Axsem AX8052 based UU340 variant of the 
 ## Chips used
 
 - U1 [AX8052F143 - MCU + radio - 8051](./docs/axsem-ax8052-datasheet.PDF)
-- U2 [FM11NT081 - NFC](./docs/fm11nt081-nfc-datasheet.pdf)
+- U2 [FM11NT081 - NFC](./docs/FM11NT0X1D_ps_eng.pdf)
 - CN1 [GDEW026Z39 - 2.6" EPD display](./docs/GDEW026Z39.pdf)
 - CN1 or [GDEW0213Z16 - 2.13" EPD display](./docs/GDEW0213Z16.pdf)
 - both displays use [IL0373](./docs/IL0373.pdf) driver
