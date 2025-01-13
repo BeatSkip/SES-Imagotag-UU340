@@ -16,7 +16,7 @@ Reverse engineering and tooling for the Axsem AX8052 based UU340 variant of the 
 
 - [Axsem Serial bootloader](./docs/axsem-serial-bootloader.PDF)
 
-## AX8052F143 connections [UNDER CONSTRUCTION]
+## AX8052F143 connections
 
 I'll create a markdown table with all the pin connections organized according to your requested headers.
 
