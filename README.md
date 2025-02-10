@@ -2,7 +2,8 @@
 Reverse engineering and tooling for the Axsem AX8052 based UU340 variant of the SES-ImagoTag Vusion 2.6BWR
 
 for more exhaustive information about the process and results you can visit the github pages site:
-[ESL Modding Chronickes on github pages](https://beatskip.github.io/ESL-Modding/)
+
+[ESL Modding Chronicles on github pages](https://beatskip.github.io/ESL-Modding/)
 
 ![Board overview](./images/Board-Overview.png)
 ## Chips used
