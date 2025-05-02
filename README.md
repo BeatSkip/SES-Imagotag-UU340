@@ -1,3 +1,5 @@
+Update 03-May-2025: This project is not yet stale, just had a busy personal time. Project will be picked up again soon
+
 # SES-Imagotag 2.6/2.2 BWR UU340 hacking
 Reverse engineering and tooling for the Axsem AX8052 based UU340 variant of the SES-ImagoTag Vusion 2.6BWR
 
