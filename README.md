@@ -1,4 +1,10 @@
-Update 03-May-2025: This project is not yet stale, just had a busy personal time. Project will be picked up again soon
+
+** UPDATE 24-Sept-2026: Finally managed to get some proper time in, re-did the project scaffold to work with SDCC. Sprinkled in some deepseek and got the
+display and everything working. now wireless is planned soon to make it possibly open-epaperlink compatible.
+The current working project can be found in: **[BeatSkip/Axsem-sdcc-helloworld](https://github.com/BeatSkip/Axsem-sdcc-helloworld)**
+
+
+~~Update 03-May-2025: This project is not yet stale, just had a busy personal time. Project will be picked up again soon~~
 
 # SES-Imagotag 2.6/2.2 BWR UU340 hacking
 Reverse engineering and tooling for the Axsem AX8052 based UU340 variant of the SES-ImagoTag Vusion 2.6BWR
