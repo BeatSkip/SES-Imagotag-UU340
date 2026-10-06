@@ -1,7 +1,7 @@
 
-** UPDATE 24-Sept-2026: Finally managed to get some proper time in, re-did the project scaffold to work with SDCC. Sprinkled in some deepseek and got the
+** UPDATE 6-Oct-2026: Finally managed to get some proper time in, re-did the project scaffold to work with SDCC. Sprinkled in some deepseek and got the
 display and everything working. now wireless is planned soon to make it possibly open-epaperlink compatible.
-The current working project can be found in: **[BeatSkip/Axsem-sdcc-helloworld](https://github.com/BeatSkip/Axsem-sdcc-helloworld)**
+The current working project can be found in: **[BeatSkip/ShelfKit-Vusion](https://github.com/BeatSkip/ShelfKit-Vusion)**
 
 
 ~~Update 03-May-2025: This project is not yet stale, just had a busy personal time. Project will be picked up again soon~~
