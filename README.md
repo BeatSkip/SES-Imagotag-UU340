@@ -6,7 +6,7 @@ And the main project is:
 **[BeatSkip/ShelfKit-Vusion](https://github.com/BeatSkip/ShelfKit-Vusion)** 
 
 
-** UPDATE 6-Oct-2026: Finally managed to get some proper time in, re-did the project scaffold to work with SDCC. Sprinkled in some deepseek and got the
+**6-Oct-2026**: Finally managed to get some proper time in, re-did the project scaffold to work with SDCC. Sprinkled in some deepseek and got the
 display and everything working. now wireless is planned soon to make it possibly open-epaperlink compatible.
 The current working project can be found in: **[BeatSkip/ShelfKit-Vusion](https://github.com/BeatSkip/ShelfKit-Vusion)**
 
