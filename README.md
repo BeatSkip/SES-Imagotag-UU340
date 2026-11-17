@@ -1,5 +1,5 @@
 **Update Nov-2026**:
-Got loads of progress. Docs are now tracked in: [ShelfKit-Docs] **(https://github.com/BeatSkip/shelfkit-docs)**
+Got loads of progress. Docs are now tracked in: **[ShelfKit-Docs](https://github.com/BeatSkip/shelfkit-docs)**
 
 And the main project is:
 
